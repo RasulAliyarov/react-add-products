@@ -1,0 +1,109 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3494E6;
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+    background: linear-gradient(to right, #EC6EAD, #3494E6);
+
+}
+.errorMessage {
+    width: fit-content;
+    color: red;
+}
+
+.categoriesSelectDiv select {
+    margin: 30px 0;
+}
+
+.form {
+    width: 500px;
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px #696969;
+}
+.formTitle {
+    text-align: center;
+
+}
+.formTitle h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(101, 16, 122);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.formTitle a {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(101, 16, 122);
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+
+.formTitle a :hover {
+    transition: .4s;
+    color: blue;
+}
+
+.categoriesSelectDiv select {
+    margin: 0 auto;
+    margin: 20px 0;
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.fourInp {
+    gap: 15px;
+    column-gap: 15px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourInp div {
+    width: fit-content;
+}
+
+.fourInp>div {
+    display: flex;
+}
+.companyNameDiv {
+    display: block !important;
+}
+
+.fourInp input {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.fourInp input:focus {
+    outline: rgb(101, 16, 122) !important;
+    border: 1px solid rgb(101, 16, 122);
+}
+.submitBtn {
+    margin: 20px 0;
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    cursor: pointer;
+    transition: .5s;
+    background-color: rgb(179, 58, 209);
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.submitBtn:hover {
+    transform: scale(1.065);
+    transition: .5s;
+    opacity: .8;
+}
